@@ -26,6 +26,9 @@ object ShengLiuPromptTemplate {
         ChatMessage(
             role = ChatRole.Assistant, content = """请总结以下聊天记录："""
         ),
+        ChatMessage(
+            role = ChatRole.User, content = messages
+        ),
     )
 }
 
